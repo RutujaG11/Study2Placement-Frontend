@@ -121,6 +121,17 @@ function Navbar() {
                 BLOGS
               </Link>
               <Link
+                to="https://noteshub-frontend-udae.onrender.com/"
+                onClick={() => setShow(!show)}
+                smooth="true"
+                duration={500}
+                offset={-70}
+                activeClass="active"
+                className="hover:text-blue-500"
+              >
+                NOTESHUB
+              </Link>
+              <Link
                 to="/creators"
                 onClick={() => setShow(!show)}
                 smooth="true"
